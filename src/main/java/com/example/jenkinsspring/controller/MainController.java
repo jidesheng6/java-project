@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @RequestMapping("/msg")
     public String test(){
-        return "测试OK";
+        return "测试";
     }
 }
